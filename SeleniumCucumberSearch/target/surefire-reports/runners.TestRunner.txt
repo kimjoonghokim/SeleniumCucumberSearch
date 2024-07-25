@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 15.088 s <<< FAILURE! - in runners.TestRunner
+Search suggestions(Search functionality)  Time elapsed: 1.78 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#nav-flyout-searchAjax > div.autocomplete-results-container > div > div.left-pane-results-container > div:nth-child(1) > div > div.s-suggestion.s-suggestion-ellipsis-direction"}
+  (Session info: chrome=127.0.6533.73)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-CHIAAVL', ip: '10.0.0.210', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7256ba0f6451dbf5040041c6b7f23512, findElement {using=css selector, value=#nav-flyout-searchAjax > div.autocomplete-results-container > div > div.left-pane-results-container > div:nth-child(1) > div > div.s-suggestion.s-suggestion-ellipsis-direction}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.73, chrome: {chromedriverVersion: 127.0.6533.72 (9755e24ca85a..., userDataDir: C:\Users\kimjo\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58845}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58845/devtoo..., se:cdpVersion: 127.0.6533.73, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7256ba0f6451dbf5040041c6b7f23512
+
